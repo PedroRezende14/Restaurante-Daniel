@@ -6,7 +6,7 @@ public class Main {
 		Fabrica f = new Fabrica();
 		Casa c = (Casa) f.criarCasa();
 		Predio p = (Predio) f.criarPredio();
-		
+		//
 		c.exibirInfo();
 		p.exibirInfo();
 	}
